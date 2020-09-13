@@ -1,0 +1,46 @@
+@import 'config.scss';
+
+// Link to other pages
+.ext-link {
+    background-color: $dark-green;
+    color: white;
+    transition: 0.2s all ease-out;
+    text-align: center;
+    width: 200px;
+    padding: 0.6rem 1rem;
+    border: 1px solid $dark-green;
+    &:hover {
+        color: $dark-green;
+        background-color: white;
+    }
+
+    &.cv {
+        background-color: $purple;
+        border: 1px solid $purple;
+
+        &:hover {
+            color: $purple;
+            background-color: white;
+        }
+    }
+
+    &.yoga {
+        background-color: $dark-orange;
+        border: 1px solid $dark-orange;
+
+        &:hover {
+            color: $dark-orange;
+            background-color: white;
+        }
+    }
+
+    &.blog {
+        background-color: $light-orange;
+        border: 1px solid $light-orange;
+
+        &:hover {
+            color: $light-orange;
+            background-color: white;
+        }
+    }
+}

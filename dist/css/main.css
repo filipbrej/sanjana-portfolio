@@ -1,0 +1,228 @@
+.ext-link {
+  background-color: #256069;
+  color: white;
+  transition: 0.2s all ease-out;
+  text-align: center;
+  width: 200px;
+  padding: 0.6rem 1rem;
+  border: 1px solid #256069;
+}
+
+.ext-link:hover {
+  color: #256069;
+  background-color: white;
+}
+
+.ext-link.cv {
+  background-color: #71618b;
+  border: 1px solid #71618b;
+}
+
+.ext-link.cv:hover {
+  color: #71618b;
+  background-color: white;
+}
+
+.ext-link.yoga {
+  background-color: #ce6452;
+  border: 1px solid #ce6452;
+}
+
+.ext-link.yoga:hover {
+  color: #ce6452;
+  background-color: white;
+}
+
+.ext-link.blog {
+  background-color: #f2b19b;
+  border: 1px solid #f2b19b;
+}
+
+.ext-link.blog:hover {
+  color: #f2b19b;
+  background-color: white;
+}
+
+@font-face {
+  font-family: 'Norwester', sans-serif;
+  src: local("Norwester"), url("./fonts/norwester.otf") format("opentype");
+}
+
+* {
+  font-family: 'Avenir', sans-serif;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: 'Avenir';
+}
+
+nav {
+  position: sticky;
+}
+
+nav li {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: 'Avenir';
+}
+
+nav li a {
+  color: black;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  text-decoration: none;
+}
+
+#home-link {
+  transition: 0.2s all ease-out;
+}
+
+#home-link:hover {
+  color: #8cb1bf;
+}
+
+#industry-link {
+  transition: 0.2s all ease-out;
+}
+
+#industry-link:hover {
+  color: #256069;
+}
+
+#research-link {
+  transition: 0.2s all ease-out;
+}
+
+#research-link:hover {
+  color: #71618b;
+}
+
+#blog-link {
+  transition: 0.2s all ease-out;
+}
+
+#blog-link:hover {
+  color: #f2b19b;
+}
+
+#yoga-link {
+  transition: 0.2s all ease-out;
+}
+
+#yoga-link:hover {
+  color: #ce6452;
+}
+
+#home-hero {
+  min-height: 80vh;
+  width: 100%;
+  background-image: url("../img/home-hero.jpg");
+  background-size: cover;
+}
+
+#home-hero h1 {
+  font-family: 'Norwester';
+  color: white;
+}
+
+#home-hero p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+#layer {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  min-height: 80vh;
+}
+
+.about-cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-cards-container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  position: relative;
+  justify-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-card {
+  overflow: hidden;
+  min-height: 30vh;
+}
+
+#contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+  align-items: center;
+}
+
+#contact-wrapper h1 {
+  font-family: 'Norwester';
+  text-transform: uppercase;
+}
+
+#contact-wrapper form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-wrapper form .form-group {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+#contact-wrapper form .form-group input {
+  border: none;
+  border-bottom: 1.2px solid gray;
+  outline: none;
+  padding: 0.3rem;
+  transition: 0.2s ease-out;
+}
+
+#contact-wrapper form .form-group input:focus {
+  border-bottom: 1.2px solid #71618b;
+}
+
+#contact-wrapper form textarea {
+  outline: none;
+  border: 1.2px solid gray;
+  padding: 0.5rem;
+  resize: none;
+}
+
+#contact-wrapper form textarea:focus {
+  border: 1.2px solid #71618b;
+}
+
+#contact-wrapper .submit-button {
+  background-color: #71618b;
+  color: white;
+  outline: none;
+  border: 1px solid #71618b;
+  text-transform: uppercase;
+  transition: 0.2s all ease-out;
+  padding: 0.5rem;
+  width: 200px;
+}
+
+#contact-wrapper .submit-button:hover {
+  background-color: white;
+  color: #71618b;
+}
+/*# sourceMappingURL=main.css.map */

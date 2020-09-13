@@ -1,0 +1,45 @@
+.ext-link {
+  background-color: #256069;
+  color: white;
+  transition: 0.2s all ease-out;
+  text-align: center;
+  width: 200px;
+  padding: 0.6rem 1rem;
+  border: 1px solid #256069;
+}
+
+.ext-link:hover {
+  color: #256069;
+  background-color: white;
+}
+
+.ext-link.cv {
+  background-color: #71618b;
+  border: 1px solid #71618b;
+}
+
+.ext-link.cv:hover {
+  color: #71618b;
+  background-color: white;
+}
+
+.ext-link.yoga {
+  background-color: #ce6452;
+  border: 1px solid #ce6452;
+}
+
+.ext-link.yoga:hover {
+  color: #ce6452;
+  background-color: white;
+}
+
+.ext-link.blog {
+  background-color: #f2b19b;
+  border: 1px solid #f2b19b;
+}
+
+.ext-link.blog:hover {
+  color: #f2b19b;
+  background-color: white;
+}
+/*# sourceMappingURL=components.css.map */
