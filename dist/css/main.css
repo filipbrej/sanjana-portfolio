@@ -163,54 +163,23 @@ nav li a:hover {
   min-height: 30vh;
 }
 
-#contact-wrapper {
-  display: flex;
-  flex-direction: column;
-  margin-top: 7rem;
-  align-items: center;
+.contact-form {
+  margin-top: 200px;
 }
 
-#contact-wrapper h1 {
+.contact-form h1 {
   font-family: 'Norwester';
-  text-transform: uppercase;
 }
 
-#contact-wrapper form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.contact-form hr {
+  background-color: black;
 }
 
-#contact-wrapper form .form-group {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-}
-
-#contact-wrapper form .form-group input {
-  border: none;
-  border-bottom: 1.2px solid gray;
-  outline: none;
-  padding: 0.3rem;
-  transition: 0.2s ease-out;
-}
-
-#contact-wrapper form .form-group input:focus {
-  border-bottom: 1.2px solid #71618b;
-}
-
-#contact-wrapper form textarea {
-  outline: none;
-  border: 1.2px solid gray;
-  padding: 0.5rem;
+.contact-form textarea {
   resize: none;
 }
 
-#contact-wrapper form textarea:focus {
-  border: 1.2px solid #71618b;
-}
-
-#contact-wrapper .submit-button {
+.contact-form .submit-button {
   background-color: #71618b;
   color: white;
   outline: none;
@@ -218,10 +187,10 @@ nav li a:hover {
   text-transform: uppercase;
   transition: 0.2s all ease-out;
   padding: 0.5rem;
-  width: 200px;
+  width: 100%;
 }
 
-#contact-wrapper .submit-button:hover {
+.contact-form .submit-button:hover {
   background-color: white;
   color: #71618b;
 }

@@ -122,47 +122,63 @@ nav {
 }
 
 // CONTACT PAGE
-#contact-wrapper {
-    display: flex;
-    flex-direction: column;
-    margin-top: 7rem;
-    align-items: center;
+// #contact-wrapper {
+//     display: flex;
+//     flex-direction: column;
+//     margin-top: 7rem;
+//     align-items: center;
 
+//     h1 {
+//         font-family: 'Norwester';
+//     }
+
+//     form {
+//         // border: 1px solid red;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         .form-group {
+//             display: flex;
+//             flex-direction: column;
+//             width: 80%;
+//             input {
+//                 border: none;
+//                 border-bottom: 1.2px solid gray;
+//                 outline: none;
+//                 padding: 0.3rem;
+//                 transition: 0.2s ease-out;
+//                 &:focus {
+//                     border-bottom: 1.2px solid $purple;
+//                 }
+//             }
+//         }
+
+//         textarea {
+//             outline: none;
+//             border: 1.2px solid gray;
+//             padding: 0.5rem;
+//             resize: none;
+//             &:focus {
+//                 border: 1.2px solid $purple;
+//             }
+//         }
+//     }
+
+//     }
+// }
+
+.contact-form {
+    margin-top: 200px;
     h1 {
         font-family: 'Norwester';
-        text-transform: uppercase;
     }
 
-    form {
-        // border: 1px solid red;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .form-group {
-            display: flex;
-            flex-direction: column;
-            width: 80%;
-            input {
-                border: none;
-                border-bottom: 1.2px solid gray;
-                outline: none;
-                padding: 0.3rem;
-                transition: 0.2s ease-out;
-                &:focus {
-                    border-bottom: 1.2px solid $purple;
-                }
-            }
-        }
+    hr {
+        background-color: black;
+    }
 
-        textarea {
-            outline: none;
-            border: 1.2px solid gray;
-            padding: 0.5rem;
-            resize: none;
-            &:focus {
-                border: 1.2px solid $purple;
-            }
-        }
+    textarea {
+        resize: none;
     }
 
     // Contact form submit button
@@ -174,7 +190,7 @@ nav {
         text-transform: uppercase;
         transition: 0.2s all ease-out;
         padding: 0.5rem;
-        width: 200px;
+        width: 100%;
         &:hover {
             background-color: white;
             color: $purple;
