@@ -34,12 +34,12 @@
 }
 
 .ext-link.blog {
-  background-color: #f2b19b;
-  border: 1px solid #f2b19b;
+  background-color: #8cb1bf;
+  border: 1px solid #8cb1bf;
 }
 
 .ext-link.blog:hover {
-  color: #f2b19b;
+  color: #8cb1bf;
   background-color: white;
 }
 /*# sourceMappingURL=components.css.map */
