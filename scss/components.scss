@@ -43,4 +43,14 @@
             background-color: white;
         }
     }
+
+    &.get-started {
+        background-color: $purple;
+        border: 1px solid $purple;
+
+        &:hover {
+            color: $purple;
+            background-color: white;
+        }
+    }
 }

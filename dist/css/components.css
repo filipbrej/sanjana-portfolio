@@ -42,4 +42,14 @@
   color: #8cb1bf;
   background-color: white;
 }
+
+.ext-link.get-started {
+  background-color: #71618b;
+  border: 1px solid #71618b;
+}
+
+.ext-link.get-started:hover {
+  color: #71618b;
+  background-color: white;
+}
 /*# sourceMappingURL=components.css.map */
