@@ -292,6 +292,10 @@ nav li a:hover {
   color: #f2b19b;
 }
 
+.projects {
+  width: 100%;
+}
+
 .timeline {
   position: relative;
   margin: 50px auto;
@@ -305,8 +309,9 @@ nav li a:hover {
   position: absolute;
   left: 50%;
   width: 2px;
-  height: 100%;
+  height: 95%;
   background: gray;
+  top: 3px;
 }
 
 .timeline ul {
@@ -329,16 +334,6 @@ nav li a:hover {
   clear: both;
 }
 
-.timeline ul li:nth-child(even) {
-  float: right;
-  text-align: left;
-  clear: both;
-}
-
-.content {
-  padding-bottom: 20px;
-}
-
 .timeline ul li:nth-child(odd)::before {
   content: '';
   position: absolute;
@@ -346,21 +341,47 @@ nav li a:hover {
   right: -6px;
   width: 10px;
   height: 10px;
-  background: orange;
+  background: #f2b19b;
   border-radius: 50%;
-  box-shadow: 0 0 0 3px orange;
+  box-shadow: 0 0 0 3px #f2b19b;
+}
+
+.timeline ul li:nth-child(odd) .time {
+  position: absolute;
+  top: 12px;
+  right: -180px;
+  margin: 0;
+  padding: 8px 16px;
+  background: #f2b19b;
+  border-radius: 20px;
+}
+
+.timeline ul li:nth-child(even) {
+  float: right;
+  text-align: left;
+  clear: both;
 }
 
 .timeline ul li:nth-child(even)::before {
   content: '';
   position: absolute;
   top: 24px;
-  left: -4px;
-  width: 10px;
-  height: 10px;
-  background: orange;
+  left: -6px;
+  width: 15px;
+  height: 15px;
+  background: #f2b19b;
   border-radius: 50%;
-  box-shadow: 0 0 0 3px orange;
+}
+
+.timeline ul li:nth-child(even) .time {
+  position: absolute;
+  top: 12px;
+  left: -180px;
+  margin: 0;
+  padding: 8px 16px;
+  background: #f2b19b;
+  border-radius: 20px;
+  box-shadow: 0 0 0 3px #f2b19b;
 }
 
 .timeline ul li h3 {
@@ -375,30 +396,13 @@ nav li a:hover {
 }
 
 .timeline ul li .time h4 {
+  font-size: 1rem;
   margin: 0;
   padding: 0;
 }
 
-.timeline ul li:nth-child(odd) .time {
-  position: absolute;
-  top: 12px;
-  right: -250px;
-  margin: 0;
-  padding: 8px 16px;
-  background: orange;
-  border-radius: 20px;
-  box-shadow: 0 0 0 3px orange;
-}
-
-.timeline ul li:nth-child(even) .time {
-  position: absolute;
-  top: 12px;
-  left: -250px;
-  margin: 0;
-  padding: 8px 16px;
-  background: orange;
-  border-radius: 20px;
-  box-shadow: 0 0 0 3px orange;
+.content {
+  padding-bottom: 20px;
 }
 
 @media (max-width: 1000px) {
@@ -412,11 +416,6 @@ nav li a:hover {
     width: 100%;
     padding-bottom: 0;
   }
-  h1 {
-    text-align: center;
-    font-size: 40px;
-    padding: 0 20px;
-  }
   .timeline::before {
     left: 20px;
   }
@@ -427,16 +426,19 @@ nav li a:hover {
     padding-left: 50px;
     padding-bottom: 50px;
   }
-  .timeline ul li:nth-child(odd)::before,
-  .timeline ul li:nth-child(even)::before {
-    top: -18px;
-    left: 16px;
-  }
   .timeline ul li:nth-child(odd) .time,
   .timeline ul li:nth-child(even) .time {
     top: -30px;
     left: 50px;
     right: inherit;
+  }
+  .timeline ul li:nth-child(odd)::before {
+    top: -18px;
+    left: 16px;
+  }
+  .timeline ul li:nth-child(even)::before {
+    top: -18px;
+    left: 14px;
   }
 }
 /*# sourceMappingURL=main.css.map */
