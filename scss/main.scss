@@ -51,7 +51,7 @@ nav {
     }
 }
 
-#research-link {
+#academia-link {
     transition: 0.2s all ease-out;
 
     &:hover {
@@ -407,4 +407,13 @@ nav {
     }
 }
 
-// YOGA PAGE
+// ACADEMIA PAGE
+.academia-container {
+    margin-top: 80px;
+}
+
+#publications {
+    #publication-item {
+        box-shadow: -1px 9px 36px 6px rgba(237, 237, 237, 1);
+    }
+}
