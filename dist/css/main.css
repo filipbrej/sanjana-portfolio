@@ -452,6 +452,46 @@ nav li a:hover {
   }
 }
 
+@media (max-width: 425px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+  #home-hero h1 {
+    font-size: 1.5rem;
+  }
+  #home-hero h2 {
+    font-size: 1rem;
+  }
+  #home-hero p {
+    font-size: 1rem;
+  }
+  #home-hero a {
+    font-size: 1rem;
+  }
+  #about-me h1 {
+    font-size: 2rem;
+  }
+  #about-me p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .logo {
+    font-size: 1rem;
+  }
+  #home-hero h1 {
+    font-size: 1.2rem;
+  }
+  #home-hero p {
+    font-size: 0.8rem;
+  }
+  #home-hero a {
+    font-size: 0.9rem;
+    width: 150px;
+  }
+}
+
 .academia-container {
   margin-top: 80px;
 }

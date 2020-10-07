@@ -407,6 +407,64 @@ nav {
     }
 }
 
+@media (max-width: 425px) {
+    // NAV BAR
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    // HOME
+    #home-hero {
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        h2 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        a {
+            font-size: 1rem;
+        }
+    }
+
+    #about-me {
+        h1 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    // NAV BAR
+    .logo {
+        font-size: 1rem;
+    }
+    // HOME
+    #home-hero {
+        h1 {
+            font-size: 1.2rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+
+        a {
+            font-size: 0.9rem;
+            width: 150px;
+        }
+    }
+}
+
 // ACADEMIA PAGE
 .academia-container {
     margin-top: 80px;
