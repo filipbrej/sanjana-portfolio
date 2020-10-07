@@ -474,6 +474,18 @@ nav li a:hover {
   #about-me p {
     font-size: 1rem;
   }
+  .academia-container h1 {
+    text-align: center;
+  }
+  .academia-container h3 {
+    text-align: center;
+  }
+  .academia-container #current-projects {
+    font-size: 3rem;
+  }
+  .academia-container #publications h1 {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 350px) {
@@ -489,6 +501,12 @@ nav li a:hover {
   #home-hero a {
     font-size: 0.9rem;
     width: 150px;
+  }
+  .academia-container #current-projects {
+    font-size: 2rem;
+  }
+  .academia-container h4 {
+    font-size: 1.2rem;
   }
 }
 
