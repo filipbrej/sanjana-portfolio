@@ -76,7 +76,7 @@ nav {
 }
 
 #home-hero {
-    margin-top: 62px;
+    margin-top: 57px;
     min-height: 80vh;
     width: 100%;
     background-image: url('../img/home-hero.jpg');
@@ -236,7 +236,7 @@ nav {
 
 // INDUSTRY PAGE
 .industry-container {
-    margin-top: 63px;
+    margin-top: 57px;
 
     .jumbotron {
         p {
@@ -366,13 +366,42 @@ nav {
     padding-bottom: 20px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
+    // HOME
+    #home-hero {
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    // INDUSTRY PAGE
+    .industry-container {
+        .jumbotron {
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+
     .timeline {
         width: 100%;
     }
 }
 
 @media (max-width: 767px) {
+    // INDUSTRY PAGE
     .timeline {
         width: 100%;
         padding-bottom: 0;
@@ -462,6 +491,19 @@ nav {
             }
         }
     }
+
+    // INDUSTRY PAGE
+    .industry-container {
+        .jumbotron {
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
 }
 
 @media (max-width: 350px) {
@@ -493,6 +535,19 @@ nav {
 
         h4 {
             font-size: 1.2rem;
+        }
+    }
+
+    // INDUSTRY PAGE
+    .industry-container {
+        .jumbotron {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
         }
     }
 }
