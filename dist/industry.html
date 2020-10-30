@@ -74,24 +74,33 @@
         <div class="industry-container">
             <!-- Jumbotron Header -->
             <header
-                class="jumbotron my-4 d-flex flex-column align-items-center text-center"
+                class="my-4 d-flex flex-column align-items-center text-center industry-header"
             >
-                <h1 class="display-3 font-weight-bold">Industry Experience</h1>
-                <p class="lead">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt
-                    odit vero aliquid similique quaerat nam nobis illo
-                    aspernatur vitae fugiat numquam repellat.
-                </p>
-                <a
-                    class="text-decoration-none ext-link rounded-pill text-uppercase"
-                    href="#"
-                    >View Resume</a
+                <div
+                    id="industry-layer"
+                    class="d-flex flex-column align-items-center justify-content-center"
                 >
+                    <h1 class="display-3 font-weight-bold text-white">
+                        Industry Experience
+                    </h1>
+                    <p class="lead text-white mx-2">
+                        As a behavioral scientist, my goal is to translate
+                        research into practice at the intersection of public
+                        health, health communication & human-centered design.
+                        Ultimately, I am pursuing career opportunities in
+                        FemTech, or companies focused on developing digital
+                        platforms for women’s health.
+                    </p>
+                    <a
+                        class="text-decoration-none ext-link rounded-pill text-uppercase mb-3"
+                        href="#"
+                        >View Resume</a
+                    >
+                </div>
             </header>
 
             <!-- Services container and cards -->
-            <div class="container mb-5">
+            <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">
                         Consulting Services
@@ -100,116 +109,179 @@
                         Here's how I can help.
                     </h3>
                 </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i
-                                class="fas fa-pencil-alt fa-stack-1x fa-inverse"
-                            ></i>
-                        </span>
-                        <h4 class="my-3">Design Strategy</h4>
-                        <p class="text-muted">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Minima maxime quam architecto quo inventore
-                            harum ex magni, dicta impedit.
-                        </p>
+                <div class="row">
+                    <!-- Service Card -->
+                    <div class="col-md-4 mb-5 project-card">
+                        <div class="card">
+                            <img
+                                class="card-img-top"
+                                src="./img/service-1.jpg"
+                                alt=""
+                            />
+                            <div class="card-body">
+                                <h4 class="card-title text-center">
+                                    Research Strategy & Methodology
+                                </h4>
+
+                                <p class="card-text text-muted">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Minima maxime quam
+                                    architecto quo inventore harum ex magni,
+                                    dicta impedit.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Social Marketing</h4>
-                        <p class="text-muted">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Minima maxime quam architecto quo inventore
-                            harum ex magni, dicta impedit.
-                        </p>
+                    <!-- Service Card -->
+                    <div class="col-md-4 mb-5 project-card">
+                        <div class="card">
+                            <img
+                                class="card-img-top"
+                                src="./img/service-2.jpg"
+                                alt=""
+                            />
+                            <div class="card-body">
+                                <h4 class="card-title text-center">
+                                    Marketing & Communications
+                                </h4>
+
+                                <p class="card-text text-muted">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Minima maxime quam
+                                    architecto quo inventore harum ex magni,
+                                    dicta impedit.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i
-                                class="fas fa-mail-bulk fa-stack-1x fa-inverse"
-                            ></i>
-                        </span>
-                        <h4 class="my-3">Communications & Marketing</h4>
-                        <p class="text-muted">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Minima maxime quam architecto quo inventore
-                            harum ex magni, dicta impedit.
-                        </p>
+                    <!-- Service Card -->
+                    <div class="col-md-4 mb-5 project-card">
+                        <div class="card">
+                            <img
+                                class="card-img-top"
+                                src="./img/service-3.jpg"
+                                alt=""
+                            />
+                            <div class="card-body">
+                                <h4 class="card-title text-center">
+                                    Human-Centered Design Thinking & Prototyping
+                                </h4>
+
+                                <p class="card-text text-muted">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Minima maxime quam
+                                    architecto quo inventore harum ex magni,
+                                    dicta impedit.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <section class="projects">
+            <section class="experience">
                 <h1 class="text-uppercase text-center">Experience</h1>
-                <div class="container timeline">
+                <div class="timeline">
                     <ul>
                         <li>
                             <div class="content">
-                                <h3>Project Name</h3>
-                                <p>
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Optio quae suscipit
-                                    incidunt quod laboriosam asperiores
-                                    perspiciatis veniam distinctio quasi fuga!
-                                    Quod est laborum cumque qui cum, quisquam
-                                    omnis atque eos.
+                                <h3 class="text-center font-weight-light">
+                                    Non-Profit Public Health
+                                </h3>
+                                <p class="text-left">
+                                    <span class="font-weight-bold">2014</span>
+                                    <br />
+                                    <span>Omaha Healthy Kids Alliance</span>
+                                    -
+                                    <span class="font-italic">
+                                        Public Health Intern
+                                    </span>
+                                    <br />
                                 </p>
-                            </div>
-                            <div class="time">
-                                <h4>September 2020</h4>
+                                <p class="text-left">
+                                    <span class="font-weight-bold">2015</span>
+                                    <br />
+                                    <span>
+                                        Building Healthy Futures
+                                        Communications</span
+                                    >
+                                    -
+                                    <span class="font-italic">Intern</span>
+                                    <br />
+                                </p>
+                                <p class="text-left">
+                                    <span class="font-weight-bold">2016</span>
+                                    <br />
+                                    <span> No More Empty Pots</span>
+                                    -
+                                    <span class="font-italic"
+                                        >Marketing & Communications
+                                        Coordinator</span
+                                    >
+                                </p>
                             </div>
                         </li>
                         <li>
                             <div class="content">
-                                <h3>Project Name</h3>
+                                <h3 class="text-center font-weight-light">
+                                    Health Care
+                                </h3>
                                 <p>
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Optio quae suscipit
-                                    incidunt quod laboriosam asperiores
-                                    perspiciatis veniam distinctio quasi fuga!
-                                    Quod est laborum cumque qui cum, quisquam
-                                    omnis atque eos.
+                                    <span class="font-weight-bold">2018</span>
+                                    <br />
+                                    Growing Research with Advocacy and
+                                    Dedication (GRAnD) | Ann & Robert H. Lurie
+                                    Children’s Hospital of Chicago -
+                                    <span class="font-italic"
+                                        >Advisory Board Member</span
+                                    >
                                 </p>
-                            </div>
-                            <div class="time">
-                                <h4>September 2020</h4>
                             </div>
                         </li>
                         <li>
                             <div class="content">
-                                <h3>Project Name</h3>
-                                <p>
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Optio quae suscipit
-                                    incidunt quod laboriosam asperiores
-                                    perspiciatis veniam distinctio quasi fuga!
-                                    Quod est laborum cumque qui cum, quisquam
-                                    omnis atque eos.
+                                <h3 class="text-center font-weight-light">
+                                    Freelance
+                                </h3>
+                                <p class="text-left">
+                                    <span class="font-weight-bold"
+                                        >2019 - present</span
+                                    >
+                                    <br />
+                                    <span class="font-italic">Blogger</span>
+                                    | Conceivabilities
                                 </p>
-                            </div>
-                            <div class="time">
-                                <h4>September 2020</h4>
+                                <p class="text-left mt-1">
+                                    <a
+                                        class="text-decoration-none font-weight-bold link"
+                                        target="_blank"
+                                        href="https://www.conceiveabilities.com/about/blog/can-the-kardashians-teach-you-about-assisted-reproductive-technologies"
+                                    >
+                                        3-post blog series
+                                    </a>
+                                    on how reality television can influence
+                                    beliefs and attitudes towards assisted
+                                    reproductive technologies.
+                                </p>
                             </div>
                         </li>
                         <li>
                             <div class="content">
-                                <h3>Heading</h3>
-                                <p>
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Optio quae suscipit
-                                    incidunt quod laboriosam asperiores
-                                    perspiciatis veniam distinctio quasi fuga!
-                                    Quod est laborum cumque qui cum, quisquam
-                                    omnis atque eos.
+                                <h3 class="text-center font-weight-light">
+                                    Digital Health
+                                </h3>
+                                <p class="text-left">
+                                    <span class="font-weight-bold"
+                                        >2019 - present</span
+                                    >
+                                    <br />
+                                    Head of research design & strategy for
+                                    multiple iterations of CeCe, a virtual
+                                    conversational agent designed to improve
+                                    knowledge, motivation, and self-efficacy
+                                    related to menstruation and overactive
+                                    bladder.
                                 </p>
-                            </div>
-                            <div class="time">
-                                <h4>September 2020</h4>
                             </div>
                         </li>
                         <div style="clear: both"></div>

@@ -147,8 +147,8 @@ nav li a:hover {
   font-size: 1.3rem;
 }
 
-#layer {
-  background-color: rgba(0, 0, 0, 0.7);
+#home-layer {
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   min-height: 80vh;
 }
@@ -292,17 +292,29 @@ nav li a:hover {
 
 .industry-container {
   margin-top: 57px;
+  min-height: 80vh;
+  width: 100%;
 }
 
-.industry-container .jumbotron p {
-  max-width: 500px;
+.industry-container .industry-header {
+  background: url("../img/industry-header.jpg") center/cover;
+}
+
+.industry-container #industry-layer {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  min-height: 40vh;
+}
+
+.industry-container #industry-layer p {
+  max-width: 800px;
 }
 
 .fa-circle {
   color: #f2b19b;
 }
 
-.projects {
+.experience {
   width: 100%;
 }
 
@@ -412,21 +424,52 @@ nav li a:hover {
 }
 
 .content {
-  padding-bottom: 20px;
+  padding: 1rem 1rem 1rem 20px;
+  border-radius: 15px;
+  box-shadow: -1px 9px 36px 6px #ebebeb;
+}
+
+.content h3 {
+  color: #f2b19b;
+}
+
+.content .link {
+  color: #256069;
+}
+
+#yoga-header {
+  background-color: #4158d0;
+  background-image: linear-gradient(43deg, #ffcc70 0%, #c850c0 40%, #4158d0 100%);
+}
+
+#yoga-header img {
+  width: 300px;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+.page-content .link {
+  color: #ce6452;
 }
 
 .academia-container {
   margin-top: 80px;
 }
 
+.academia-container .link {
+  color: #71618b;
+}
+
+.card {
+  box-shadow: -1px 9px 36px 6px #ebebeb;
+  border: none;
+}
+
 .project-card img {
   object-fit: cover;
   width: 100%;
   height: 250px;
-}
-
-#publications #publication-item {
-  box-shadow: -1px 9px 36px 6px #ededed;
 }
 
 @media (max-width: 1024px) {
@@ -439,10 +482,10 @@ nav li a:hover {
   #home-hero p {
     font-size: 1rem;
   }
-  .industry-container .jumbotron h1 {
+  .industry-container .industry-header h1 {
     font-size: 3rem;
   }
-  .industry-container .jumbotron p {
+  .industry-container .industry-header p {
     font-size: 1rem;
   }
   .timeline {
@@ -472,11 +515,9 @@ nav li a:hover {
     right: inherit;
   }
   .timeline ul li:nth-child(odd)::before {
-    top: -18px;
     left: 16px;
   }
   .timeline ul li:nth-child(even)::before {
-    top: -18px;
     left: 14px;
   }
 }
@@ -515,10 +556,10 @@ nav li a:hover {
   .academia-container #publications h1 {
     font-size: 2rem;
   }
-  .industry-container .jumbotron h1 {
+  .industry-container .industry-header h1 {
     font-size: 2rem;
   }
-  .industry-container .jumbotron p {
+  .industry-container .industry-header p {
     font-size: 1rem;
   }
   .blog-container #page-title {
@@ -546,10 +587,10 @@ nav li a:hover {
   .academia-container #current-projects {
     font-size: 2rem;
   }
-  .industry-container .jumbotron h1 {
+  .industry-container .industry-header h1 {
     font-size: 1.5rem;
   }
-  .industry-container .jumbotron p {
+  .industry-container .industry-header p {
     font-size: 1rem;
   }
   .blog-container #page-title {

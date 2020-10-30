@@ -94,8 +94,8 @@ nav {
 }
 
 // HOME HERO SECTION
-#layer {
-    background-color: rgba(0, 0, 0, 0.7);
+#home-layer {
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     min-height: 80vh;
 }
@@ -237,10 +237,19 @@ nav {
 // INDUSTRY PAGE
 .industry-container {
     margin-top: 57px;
+    min-height: 80vh;
+    width: 100%;
 
-    .jumbotron {
+    .industry-header {
+        background: url('../img/industry-header.jpg') center/cover;
+    }
+
+    #industry-layer {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        min-height: 40vh;
         p {
-            max-width: 500px;
+            max-width: 800px;
         }
     }
 }
@@ -249,7 +258,7 @@ nav {
     color: $light-orange;
 }
 
-.projects {
+.experience {
     width: 100%;
 }
 
@@ -363,25 +372,61 @@ nav {
 }
 
 .content {
-    padding-bottom: 20px;
+    padding: 1rem 1rem 1rem 20px;
+    border-radius: 15px;
+    box-shadow: -1px 9px 36px 6px rgb(235, 235, 235);
+
+    h3 {
+        color: $light-orange;
+    }
+
+    .link {
+        color: $dark-green;
+    }
+}
+
+// YOGA PAGE
+#yoga-header {
+    background-color: #4158d0;
+    background-image: linear-gradient(
+        43deg,
+        #ffcc70 0%,
+        #c850c0 40%,
+        #4158d0 100%
+    );
+
+    img {
+        width: 300px;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.page-content {
+    .link {
+        color: $dark-orange;
+    }
 }
 
 // ACADEMIA PAGE
 .academia-container {
     margin-top: 80px;
+
+    .link {
+        color: $purple;
+    }
 }
 
+.card {
+    box-shadow: -1px 9px 36px 6px rgba(235, 235, 235, 1);
+    border: none;
+}
 .project-card {
     img {
         object-fit: cover;
         width: 100%;
         height: 250px;
-    }
-}
-
-#publications {
-    #publication-item {
-        box-shadow: -1px 9px 36px 6px rgba(237, 237, 237, 1);
     }
 }
 
@@ -403,7 +448,7 @@ nav {
 
     // INDUSTRY PAGE
     .industry-container {
-        .jumbotron {
+        .industry-header {
             h1 {
                 font-size: 3rem;
             }
@@ -443,12 +488,12 @@ nav {
         }
 
         ul li:nth-child(odd)::before {
-            top: -18px;
+            // top: -18px;
             left: 16px;
         }
 
         ul li:nth-child(even)::before {
-            top: -18px;
+            // top: -18px;
             left: 14px;
         }
     }
@@ -512,7 +557,7 @@ nav {
 
     // INDUSTRY PAGE
     .industry-container {
-        .jumbotron {
+        .industry-header {
             h1 {
                 font-size: 2rem;
             }
@@ -565,7 +610,7 @@ nav {
 
     // INDUSTRY PAGE
     .industry-container {
-        .jumbotron {
+        .industry-header {
             h1 {
                 font-size: 1.5rem;
             }
