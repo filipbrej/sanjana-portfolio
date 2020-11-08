@@ -341,6 +341,15 @@ nav li a:hover {
   padding: 0;
 }
 
+.timeline ul .teaching-item:nth-child(odd)::before {
+  background: #71618b;
+  box-shadow: 0 0 0 3px #71618b;
+}
+
+.timeline ul .teaching-item:nth-child(even)::before {
+  background: #71618b;
+}
+
 .timeline ul li {
   list-style: none;
   line-height: normal;
@@ -368,16 +377,6 @@ nav li a:hover {
   box-shadow: 0 0 0 3px #f2b19b;
 }
 
-.timeline ul li:nth-child(odd) .time {
-  position: absolute;
-  top: 12px;
-  right: -180px;
-  margin: 0;
-  padding: 8px 16px;
-  background: #f2b19b;
-  border-radius: 20px;
-}
-
 .timeline ul li:nth-child(even) {
   float: right;
   text-align: left;
@@ -395,46 +394,30 @@ nav li a:hover {
   border-radius: 50%;
 }
 
-.timeline ul li:nth-child(even) .time {
-  position: absolute;
-  top: 12px;
-  left: -180px;
-  margin: 0;
-  padding: 8px 16px;
-  background: #f2b19b;
-  border-radius: 20px;
-  box-shadow: 0 0 0 3px #f2b19b;
+.timeline ul li .content {
+  padding: 1rem 1rem 1rem 20px;
+  border-radius: 15px;
+  box-shadow: -1px 9px 36px 6px #ebebeb;
 }
 
 .timeline ul li h3 {
   margin: 0;
   padding: 0;
   font-weight: bold;
+  color: #f2b19b;
+}
+
+.timeline ul li .link {
+  color: #256069;
+}
+
+.timeline ul li .teaching-title {
+  color: #71618b;
 }
 
 .timeline ul li p {
   margin: 10px 0 0;
   padding: 0;
-}
-
-.timeline ul li .time h4 {
-  font-size: 1rem;
-  margin: 0;
-  padding: 0;
-}
-
-.content {
-  padding: 1rem 1rem 1rem 20px;
-  border-radius: 15px;
-  box-shadow: -1px 9px 36px 6px #ebebeb;
-}
-
-.content h3 {
-  color: #f2b19b;
-}
-
-.content .link {
-  color: #256069;
 }
 
 #yoga-header {
@@ -507,12 +490,6 @@ nav li a:hover {
     text-align: left;
     padding-left: 50px;
     padding-bottom: 50px;
-  }
-  .timeline ul li:nth-child(odd) .time,
-  .timeline ul li:nth-child(even) .time {
-    top: -30px;
-    left: 50px;
-    right: inherit;
   }
   .timeline ul li:nth-child(odd)::before {
     left: 16px;

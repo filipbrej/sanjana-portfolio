@@ -283,6 +283,21 @@ nav {
         margin: 0;
         padding: 0;
 
+        // timeline for teaching page
+        .teaching-item {
+            &:nth-child(odd) {
+                &::before {
+                    background: $purple;
+                    box-shadow: 0 0 0 3px $purple;
+                }
+            }
+            &:nth-child(even) {
+                &::before {
+                    background: $purple;
+                }
+            }
+        }
+
         li {
             list-style: none;
             line-height: normal;
@@ -309,16 +324,6 @@ nav {
                     border-radius: 50%;
                     box-shadow: 0 0 0 3px $light-orange;
                 }
-
-                .time {
-                    position: absolute;
-                    top: 12px;
-                    right: -180px;
-                    margin: 0;
-                    padding: 8px 16px;
-                    background: $light-orange;
-                    border-radius: 20px;
-                }
             }
 
             // items on the right
@@ -338,50 +343,35 @@ nav {
                     background: $light-orange;
                     border-radius: 50%;
                 }
+            }
 
-                .time {
-                    position: absolute;
-                    top: 12px;
-                    left: -180px;
-                    margin: 0;
-                    padding: 8px 16px;
-                    background: $light-orange;
-                    border-radius: 20px;
-                    box-shadow: 0 0 0 3px $light-orange;
-                }
+            .content {
+                padding: 1rem 1rem 1rem 20px;
+                border-radius: 15px;
+                box-shadow: -1px 9px 36px 6px rgb(235, 235, 235);
             }
 
             h3 {
                 margin: 0;
                 padding: 0;
                 font-weight: bold;
+                color: $light-orange;
+            }
+
+            .link {
+                color: $dark-green;
+            }
+
+            // title for teaching section
+            .teaching-title {
+                color: $purple;
             }
 
             p {
                 margin: 10px 0 0;
                 padding: 0;
             }
-
-            .time h4 {
-                font-size: 1rem;
-                margin: 0;
-                padding: 0;
-            }
         }
-    }
-}
-
-.content {
-    padding: 1rem 1rem 1rem 20px;
-    border-radius: 15px;
-    box-shadow: -1px 9px 36px 6px rgb(235, 235, 235);
-
-    h3 {
-        color: $light-orange;
-    }
-
-    .link {
-        color: $dark-green;
     }
 }
 
@@ -479,21 +469,13 @@ nav {
             text-align: left;
             padding-left: 50px;
             padding-bottom: 50px;
-
-            .time {
-                top: -30px;
-                left: 50px;
-                right: inherit;
-            }
         }
 
         ul li:nth-child(odd)::before {
-            // top: -18px;
             left: 16px;
         }
 
         ul li:nth-child(even)::before {
-            // top: -18px;
             left: 14px;
         }
     }
