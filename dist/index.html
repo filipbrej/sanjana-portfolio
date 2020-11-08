@@ -16,6 +16,8 @@
         />
         <!-- Main CSS -->
         <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     </head>
     <body>
         <!-- Navigation Bar -->
@@ -69,17 +71,21 @@
                 id="home-layer"
                 class="d-flex flex-column justify-content-center align-items-center"
             >
-                <h1 class="display-3 text-center">
+                <h1 class="display-3 text-center" data-aos="fade-down">
                     Sanjana Ramesh, MPH (she/her)
                 </h1>
-                <h2 class="h2 text-white font-weight-bold text-center">
+                <h2
+                    class="h2 text-white font-weight-bold text-center"
+                    data-aos="fade-down"
+                >
                     Researcher · Behavioral Scientist · Yogini
                 </h2>
-                <p class="text-center mx-1">
+                <p class="text-center mx-1" data-aos="fade-up">
                     Social & behavioral health communication and intervention
                     design for patient-centered care.
                 </p>
                 <a
+                    data-aos="fade-up"
                     class="text-decoration-none ext-link rounded-pill mt-2 text-uppercase"
                     href="contact.html"
                     >Contact Me</a
@@ -91,6 +97,7 @@
             <div class="jumbotron jumbotron-fluid mb-0 bg-white">
                 <div
                     class="container mb-4 d-flex flex-column align-items-center"
+                    data-aos="zoom-in"
                 >
                     <h1 class="display-4 text-center font-weight-bold">
                         Hi! I'm Sanjana.
@@ -117,6 +124,7 @@
                     <div class="about-cards-container">
                         <div
                             class="about-card rounded shadow d-flex flex-column align-items-center py-3 my-2 mx-1"
+                            data-aos="fade-up"
                         >
                             <h2 class="font-weight-bold">Research</h2>
                             <h6 class="font-weight-bold text-center mx-2">
@@ -141,6 +149,8 @@
                         <!-- Card 2 -->
                         <div
                             class="about-card rounded shadow d-flex flex-column align-items-center py-3 my-2 mx-1"
+                            data-aos-delay="200"
+                            data-aos="fade-up"
                         >
                             <h2 class="font-weight-bold">Industry</h2>
                             <h6 class="mx-2 text-center font-weight-bold">
@@ -165,6 +175,8 @@
                         <!-- Card 3 -->
                         <div
                             class="about-card rounded shadow d-flex flex-column align-items-center py-3 my-2 mx-1"
+                            data-aos-delay="300"
+                            data-aos="fade-up"
                         >
                             <h2 class="font-weight-bold">Yoga</h2>
                             <h6 class="font-weight-bold">
@@ -202,7 +214,8 @@
                 >
             </h6>
         </footer>
-        <!-- JaaScript Libs -->
+        <!-- JaaScript -->
+        <script src="main.js"></script>
         <!-- jQuery -->
         <script
             src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

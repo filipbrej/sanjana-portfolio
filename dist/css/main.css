@@ -372,9 +372,9 @@ nav li a:hover {
   right: -6px;
   width: 10px;
   height: 10px;
-  background: #f2b19b;
+  background: #256069;
   border-radius: 50%;
-  box-shadow: 0 0 0 3px #f2b19b;
+  box-shadow: 0 0 0 3px #256069;
 }
 
 .timeline ul li:nth-child(even) {
@@ -390,7 +390,7 @@ nav li a:hover {
   left: -6px;
   width: 15px;
   height: 15px;
-  background: #f2b19b;
+  background: #256069;
   border-radius: 50%;
 }
 
@@ -404,7 +404,7 @@ nav li a:hover {
   margin: 0;
   padding: 0;
   font-weight: bold;
-  color: #f2b19b;
+  color: #256069;
 }
 
 .timeline ul li .link {
