@@ -320,9 +320,9 @@ nav {
                     right: -6px;
                     width: 10px;
                     height: 10px;
-                    background: $light-orange;
+                    background: $dark-green;
                     border-radius: 50%;
-                    box-shadow: 0 0 0 3px $light-orange;
+                    box-shadow: 0 0 0 3px $dark-green;
                 }
             }
 
@@ -340,7 +340,7 @@ nav {
                     left: -6px;
                     width: 15px;
                     height: 15px;
-                    background: $light-orange;
+                    background: $dark-green;
                     border-radius: 50%;
                 }
             }
@@ -355,7 +355,7 @@ nav {
                 margin: 0;
                 padding: 0;
                 font-weight: bold;
-                color: $light-orange;
+                color: $dark-green;
             }
 
             .link {
