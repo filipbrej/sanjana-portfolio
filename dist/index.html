@@ -94,7 +94,7 @@
         </div>
         <!-- About section -->
         <main role="main" id="about-me">
-            <div class="container">
+            <div class="container d-flex flex-column justify-content-center align-items-center">
                 <div
                     class="my-4 d-flex flex-column align-items-center"
                     data-aos="zoom-in"
@@ -116,9 +116,13 @@
                     >
                 </div>
                 <!-- Cards in About Me -->
-                <div class="row d-flex justify-content-center">
+                    <div class="row d-flex justify-content-center">
                     <!-- Card 1 -->
-                    <div class="col-md-4 my-2 text-center">
+                    <div
+                        class="col-md-9 my-2 text-center"
+                        data-aos="fade-right"
+                        data-aos-delay="100"
+                    >
                         <div class="card about-card">
                             <div
                                 class="card-body d-flex flex-column align-items-center"
@@ -155,8 +159,14 @@
                             </div>
                         </div>
                     </div>
+                </div>
                     <!-- Card 2 -->
-                    <div class="col-md-4 my-2 text-center">
+                    <div class="row d-flex justify-content-center">
+                    <div
+                        class="col-md-9 my-2 text-center"
+                        data-aos="fade-right"
+                        data-aos-delay="300"
+                    >
                         <div class="card about-card">
                             <div
                                 class="card-body d-flex flex-column align-items-center"
@@ -184,8 +194,14 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Card 3 -->
-                    <div class="col-md-4 my-2 text-center">
+                </div>
+                <!-- Card 3 -->
+                <div class="row d-flex justify-content-center mb-3">
+                    <div
+                        class="col-md-9 my-2 text-center"
+                        data-aos="fade-right"
+                        data-aos-delay="300"
+                    >
                         <div class="card about-card">
                             <div
                                 class="card-body d-flex flex-column align-items-center"
@@ -198,24 +214,20 @@
                                 </h6>
                                 <p class="text-center">
                                     Flow with me weekly at
-                                    <br />
                                     <a
                                         href="https://studiothree.com/"
                                         target="_blank"
                                         class="font-weight-bold text-decoration-none studio-link"
                                         >Studio Three Chicago - River North</a
+                                        > on
+                                    <span class="font-weight-bold font-italic"
+                                        >Thursdays at
+                                    6:35 pm Heated Power Flow 45</span
+                                    > and
+                                    <span class="font-weight-bold font-italic"
+                                        >Fridays at 12:15 pm & 5:25 pm Power Flow 45
+                                    </span
                                     >
-                                    <br />
-                                    <br />
-                                    <span class="font-weight-bold"
-                                        >Thursday:</span
-                                    >
-                                    6:35 pm Heated Power Flow 45
-                                    <br />
-                                    <span class="font-weight-bold"
-                                        >Friday:</span
-                                    >
-                                    12:15 pm & 5:25 pm Power Flow 45
                                 </p>
                                 <a
                                     class="text-uppercase text-decoration-none rounded-pill ext-link yoga"
@@ -228,19 +240,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+            </div>
         </main>
-        <!-- Footer -->
-        <footer class="footer">
-            <h6 class="text-muted text-center font-weight-light">
-                Designed/Developed by
-                <a
-                    href="https://fistudios.io"
-                    target="_blank"
-                    class="text-muted text-decoration-none pb-2"
-                    >Fi Studios</a
-                >
-            </h6>
-        </footer>
         <!-- JaaScript -->
         <script src="main.js"></script>
         <!-- jQuery -->
