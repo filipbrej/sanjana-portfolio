@@ -58,6 +58,12 @@
   src: local("Norwester"), url("./fonts/norwester.otf") format("opentype");
 }
 
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 * {
   font-family: 'Avenir', sans-serif;
 }
@@ -148,30 +154,21 @@ nav li a:hover {
 }
 
 #home-layer {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.65);
   width: 100%;
   min-height: 80vh;
 }
 
-.about-cards-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.about-cards-container {
-  width: 90%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  position: relative;
-  justify-items: center;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
 .about-card {
-  overflow: hidden;
-  min-height: 30vh;
+  box-shadow: -1px 9px 36px 6px #ebebeb;
+}
+
+.renalis-link {
+  color: #71618b;
+}
+
+.studio-link {
+  color: #ce6452;
 }
 
 .contact-form {
