@@ -373,19 +373,25 @@ nav {
 
 // YOGA PAGE
 #yoga-header {
-    background-color: #4158d0;
-    background-image: linear-gradient(
-        43deg,
-        #ffcc70 0%,
-        #c850c0 40%,
-        #4158d0 100%
-    );
+    background: #fdc830; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to left,
+        #f37335,
+        #fdc830
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to left,
+        #f37335,
+        #fdc830
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+    color: $dark-green;
     img {
-        width: 300px;
-        height: 300px;
-        margin: 0;
-        padding: 0;
+        // width: 60%;
+        width: 80%;
+        min-width: 300px;
+        height: 200px;
+        object-fit: cover;
     }
 }
 

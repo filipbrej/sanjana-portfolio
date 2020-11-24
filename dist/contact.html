@@ -18,6 +18,9 @@
         />
         <!-- Main CSS -->
         <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- Animate on scroll -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     </head>
     <body>
         <!-- Navigation Bar -->
@@ -65,7 +68,7 @@
             </div>
         </nav>
         <!-- Contact form wrapper -->
-        <div class="container contact-form">
+        <div class="container contact-form" data-aos="fade-down">
             <form action="post">
                 <h1>Contact Me</h1>
                 <hr />
@@ -172,8 +175,8 @@
             </form>
         </div>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- JavaScript -->
+        <script src="main.js"></script>
         <script
             src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
