@@ -385,13 +385,9 @@ nav {
         #fdc830
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    color: $dark-green;
     img {
-        // width: 60%;
-        width: 80%;
-        min-width: 300px;
-        height: 200px;
-        object-fit: cover;
+        width: 90%;
+        height: auto;
     }
 }
 
