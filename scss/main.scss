@@ -16,6 +16,13 @@ html {
     font-family: 'Avenir', sans-serif;
 }
 
+// BOOTSTRAP ELEMENTS
+
+.card {
+    box-shadow: -1px 9px 36px 6px rgba(235, 235, 235, 1);
+    border: none;
+}
+
 // NAVIGATION BAR
 .logo {
     text-transform: uppercase;
@@ -406,10 +413,14 @@ nav {
     }
 }
 
-.card {
-    box-shadow: -1px 9px 36px 6px rgba(235, 235, 235, 1);
-    border: none;
+#projecthead1,
+#projecthead2,
+#projecthead3,
+#projecthead4,
+#projecthead5 {
+    background-color: $purple;
 }
+
 .project-card {
     img {
         object-fit: cover;

@@ -68,6 +68,11 @@ html {
   font-family: 'Avenir', sans-serif;
 }
 
+.card {
+  box-shadow: -1px 9px 36px 6px #ebebeb;
+  border: none;
+}
+
 .logo {
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -442,9 +447,12 @@ nav li a:hover {
   color: #71618b;
 }
 
-.card {
-  box-shadow: -1px 9px 36px 6px #ebebeb;
-  border: none;
+#projecthead1,
+#projecthead2,
+#projecthead3,
+#projecthead4,
+#projecthead5 {
+  background-color: #71618b;
 }
 
 .project-card img {
