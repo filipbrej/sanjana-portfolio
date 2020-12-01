@@ -380,27 +380,26 @@ nav {
 
 // YOGA PAGE
 #yoga-header {
-    background: #fdc830; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-        to left,
-        #f37335,
-        #fdc830
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-        to left,
-        #f37335,
-        #fdc830
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     img {
         width: 90%;
         height: auto;
+        border-bottom: 1px solid $dark-orange;
     }
 }
 
 .page-content {
     .link {
         color: $dark-orange;
+    }
+
+    #ganesh {
+        width: 100%;
+        height: auto;
+    }
+
+    #crystals {
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -419,14 +418,6 @@ nav {
 #projecthead4,
 #projecthead5 {
     background-color: $purple;
-}
-
-.project-card {
-    img {
-        object-fit: cover;
-        width: 100%;
-        height: 250px;
-    }
 }
 
 @media (max-width: 1024px) {

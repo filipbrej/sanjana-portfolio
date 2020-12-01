@@ -422,21 +422,24 @@ nav li a:hover {
   padding: 0;
 }
 
-#yoga-header {
-  background: #fdc830;
-  /* fallback for old browsers */
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #f37335, #fdc830);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 #yoga-header img {
   width: 90%;
   height: auto;
+  border-bottom: 1px solid #ce6452;
 }
 
 .page-content .link {
   color: #ce6452;
+}
+
+.page-content #ganesh {
+  width: 100%;
+  height: auto;
+}
+
+.page-content #crystals {
+  width: 100%;
+  height: auto;
 }
 
 .academia-container {
@@ -453,12 +456,6 @@ nav li a:hover {
 #projecthead4,
 #projecthead5 {
   background-color: #71618b;
-}
-
-.project-card img {
-  object-fit: cover;
-  width: 100%;
-  height: 250px;
 }
 
 @media (max-width: 1024px) {
