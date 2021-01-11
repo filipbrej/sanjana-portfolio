@@ -216,6 +216,18 @@ nav li a:hover {
   box-shadow: -1px 20px 28px -16px #c2c2c2;
 }
 
+.blog-container .blog-card .card-img-top {
+  height: 350px;
+  object-fit: cover;
+}
+
+.blog-container .blog-card p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 16px;
+}
+
 .blog-container .blog-card .card-footer {
   background-color: #8cb1bf;
 }
@@ -239,15 +251,6 @@ nav li a:hover {
 .blog-container .blog-card .read-more-btn:hover {
   color: #f2b19b;
   background-color: white;
-}
-
-.blog-container .widgets-column {
-  margin-top: 72px;
-}
-
-.blog-container .widgets-column .card-header {
-  background-color: #f2b19b;
-  color: white;
 }
 
 .blog-category-link {

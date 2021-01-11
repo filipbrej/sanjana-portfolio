@@ -162,6 +162,18 @@ nav {
     margin-top: 100px;
 
     .blog-card {
+        .card-img-top {
+            height: 350px;
+            object-fit: cover;
+        }
+
+        p {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            line-height: 16px;
+        }
+
         box-shadow: -1px 20px 28px -16px rgba(194, 194, 194, 1);
         .card-footer {
             background-color: $light-green;
@@ -185,15 +197,6 @@ nav {
                 color: $light-orange;
                 background-color: white;
             }
-        }
-    }
-
-    .widgets-column {
-        margin-top: 72px;
-
-        .card-header {
-            background-color: $light-orange;
-            color: white;
         }
     }
 }
