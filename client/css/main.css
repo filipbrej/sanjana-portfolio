@@ -124,14 +124,6 @@ nav li a:hover {
   color: #71618b;
 }
 
-#blog-link {
-  transition: 0.2s all ease-out;
-}
-
-#blog-link:hover {
-  color: #8cb1bf;
-}
-
 #yoga-link {
   transition: 0.2s all ease-out;
 }
@@ -206,93 +198,6 @@ nav li a:hover {
 .contact-form .submit-button:hover {
   background-color: white;
   color: #71618b;
-}
-
-.blog-container {
-  margin-top: 100px;
-}
-
-.blog-container .blog-card {
-  box-shadow: -1px 20px 28px -16px #c2c2c2;
-}
-
-.blog-container .blog-card .card-img-top {
-  height: 350px;
-  object-fit: cover;
-}
-
-.blog-container .blog-card p {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  line-height: 16px;
-}
-
-.blog-container .blog-card .card-footer {
-  background-color: #8cb1bf;
-}
-
-.blog-container .blog-card .card-footer a {
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.blog-container .blog-card .read-more-btn {
-  color: white;
-  text-transform: uppercase;
-  background-color: #f2b19b;
-  outline: none;
-  border: none;
-  border: 1px solid #f2b19b;
-  transition: 0.2s ease-out;
-}
-
-.blog-container .blog-card .read-more-btn:hover {
-  color: #f2b19b;
-  background-color: white;
-}
-
-.blog-category-link {
-  color: #256069;
-}
-
-.blog-pagination .page-item {
-  margin-right: 0.5rem;
-}
-
-.blog-pagination .blog-page-link {
-  color: white;
-  background-color: #ce6452;
-  transition: 0.2s ease-out;
-}
-
-.blog-pagination .blog-page-link:hover {
-  background-color: #f2b19b;
-}
-
-.author-link {
-  color: #256069;
-  transition: 0.2s ease-out;
-}
-
-.author-link:hover {
-  color: #8cb1bf;
-}
-
-.submit-comment-btn {
-  color: white;
-  text-transform: uppercase;
-  background-color: #ce6452;
-  outline: none;
-  border: none;
-  border: 1px solid #ce6452;
-  transition: 0.2s ease-out;
-}
-
-.submit-comment-btn:hover {
-  color: #ce6452;
-  background-color: white;
 }
 
 .industry-container {
@@ -545,12 +450,6 @@ nav li a:hover {
   .industry-container .industry-header p {
     font-size: 1rem;
   }
-  .blog-container #page-title {
-    font-size: 2rem;
-  }
-  .blog-container .card-title {
-    font-size: 1.5rem;
-  }
 }
 
 @media (max-width: 350px) {
@@ -575,12 +474,6 @@ nav li a:hover {
   }
   .industry-container .industry-header p {
     font-size: 1rem;
-  }
-  .blog-container #page-title {
-    font-size: 1.8rem;
-  }
-  .blog-container .card-title {
-    font-size: 1.2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

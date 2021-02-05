@@ -72,14 +72,6 @@ nav {
     }
 }
 
-#blog-link {
-    transition: 0.2s all ease-out;
-
-    &:hover {
-        color: $light-green;
-    }
-}
-
 #yoga-link {
     transition: 0.2s all ease-out;
 
@@ -154,89 +146,6 @@ nav {
             background-color: white;
             color: $purple;
         }
-    }
-}
-
-// BLOG HOME PAGE
-.blog-container {
-    margin-top: 100px;
-
-    .blog-card {
-        .card-img-top {
-            height: 350px;
-            object-fit: cover;
-        }
-
-        p {
-            text-overflow: ellipsis;
-            overflow: hidden;
-            white-space: nowrap;
-            line-height: 16px;
-        }
-
-        box-shadow: -1px 20px 28px -16px rgba(194, 194, 194, 1);
-        .card-footer {
-            background-color: $light-green;
-
-            a {
-                color: white;
-                font-weight: bold;
-                text-decoration: none;
-            }
-        }
-
-        .read-more-btn {
-            color: white;
-            text-transform: uppercase;
-            background-color: $light-orange;
-            outline: none;
-            border: none;
-            border: 1px solid $light-orange;
-            transition: 0.2s ease-out;
-            &:hover {
-                color: $light-orange;
-                background-color: white;
-            }
-        }
-    }
-}
-
-.blog-category-link {
-    color: $dark-green;
-}
-
-.blog-pagination {
-    .page-item {
-        margin-right: 0.5rem;
-    }
-    .blog-page-link {
-        color: white;
-        background-color: $dark-orange;
-        transition: 0.2s ease-out;
-        &:hover {
-            background-color: $light-orange;
-        }
-    }
-}
-// BLOG POST
-.author-link {
-    color: $dark-green;
-    transition: 0.2s ease-out;
-    &:hover {
-        color: $light-green;
-    }
-}
-.submit-comment-btn {
-    color: white;
-    text-transform: uppercase;
-    background-color: $dark-orange;
-    outline: none;
-    border: none;
-    border: 1px solid $dark-orange;
-    transition: 0.2s ease-out;
-    &:hover {
-        color: $dark-orange;
-        background-color: white;
     }
 }
 
@@ -552,17 +461,6 @@ nav {
             }
         }
     }
-
-    // BLOG PAGE
-    .blog-container {
-        #page-title {
-            font-size: 2rem;
-        }
-
-        .card-title {
-            font-size: 1.5rem;
-        }
-    }
 }
 
 @media (max-width: 350px) {
@@ -603,17 +501,6 @@ nav {
             p {
                 font-size: 1rem;
             }
-        }
-    }
-
-    // BLOG PAGE
-    .blog-container {
-        #page-title {
-            font-size: 1.8rem;
-        }
-
-        .card-title {
-            font-size: 1.2rem;
         }
     }
 }
